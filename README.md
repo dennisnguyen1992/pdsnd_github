@@ -6,6 +6,9 @@
 ### Project Title
 Post My Work on Gihub Project for Udacity
 
+### Composer
+Dennis Nguyen
+
 ### Description
 This project to practice how to using Github
 
