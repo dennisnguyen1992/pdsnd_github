@@ -10,8 +10,11 @@ Project For Try Github
 This is project for sumbit Udacity PJ3
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Clone from https://github.com/udacity/pdsnd_github
 
