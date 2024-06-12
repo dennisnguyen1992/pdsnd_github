@@ -2,10 +2,11 @@ import time
 import pandas as pd
 import numpy as np
 
+#Define the City data
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#This is function get filter
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -43,7 +44,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+#This function to load data from files
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -69,7 +70,7 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
     return df
 
-
+#This function for calculation time statistic
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
 
